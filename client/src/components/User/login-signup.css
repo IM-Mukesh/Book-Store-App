@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signup-container {
+  min-height: 50vh;
+  width: 98%;
+  margin: 2vh auto;
+  display: flex;
+  padding: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.signup-container form h3{
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+.signup-container form{
+  width: 50%;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.signup-container form div{
+  margin-bottom: 1rem;
+}
+.signup-container form div input{
+  margin-top: .4rem;
+  font-size: 1.2rem;
+}
+.signup-container form div label{
+  font-size: 1.6rem;
+}
+.signup-container form button{
+  width: 100%;
+  margin-top: .5rem;
+}
+.signup-container form p{
+  float: right;
+  margin-top: 1rem;
+}

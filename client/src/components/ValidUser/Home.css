@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-user-container{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: burlywood; */
+    padding: 1rem;
+    /* min-height: 100vh; */
+}
+
+.sidebar-container{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4vh;
+    flex-basis: 25%;
+}
+.sidebar-container h4{
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+    opacity: .8;
+    color: blueviolet;
+    letter-spacing: 1.8px;
+    font-family: 'Lucida Sans';
+}
+.sidebar-container input{
+    width: 60%;
+    margin-bottom: 1rem;
+}
+.sidebar-container h5{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: serif;
+    opacity: .8;
+}
+.display-book{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 70%;
+    float: right;
+    border: 1px solid rgb(199, 195, 195);
+    padding: .25rem .75rem;
+    /* background-color: rgb(146, 194, 146); */
+}
+.book-card{
+    text-align: center;
+    padding: .8rem 1.8rem 0 1.8rem;
+    border: .5px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: .75rem .5rem;
+    /* background-color: brown; */
+}
+.book-card div p{
+    font-size: 1.1rem;
+    opacity: .8;
+    /* margin-top: -4px; */
+    /* background-color: aliceblue; */
+}
+.book-card:hover{
+    box-shadow: -4px -4px 4px rgb(197, 195, 195),
+                4px 4px 4px rgb(197, 195, 195);
+    cursor: pointer;
+    opacity: .98;
+    border-radius: 4px;
+}
+.book-card h3{
+    color: rgb(226, 43, 171);
+    font-size: 1.4rem;
+    /* background-color: aquamarine; */
+    margin-top: .6rem;
+}
